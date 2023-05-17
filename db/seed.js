@@ -12,32 +12,32 @@ const seed = async () => {
     await Promise.all([
       Bookmark.create({
         name: "Google",
-        url: "https://www.google.com/"
+        url: "https://www.google.com/",
         categoryId: search.id,
       }),
       Bookmark.create({
         name: "Stack Overflow",
-        url: "https://stackoverflow.com/"
+        url: "https://stackoverflow.com/",
         categoryId: code.id,
       }),
       Bookmark.create({
         name: "Bing",
-        url: "https://www.bing.com/"
+        url: "https://www.bing.com/",
         categoryId: search.id,
       }),
       Bookmark.create({
         name: "LinkedIn",
-        url: "https://www.linkedin.com/"
+        url: "https://www.linkedin.com/",
         categoryId: jobs.id,
       }),
       Bookmark.create({
         name: "Indeed",
-        url: "https://www.indeed.com/"
+        url: "https://www.indeed.com/",
         categoryId: jobs.id,
       }),
       Bookmark.create({
         name: "MDN",
-        url: "https://developer.mozilla.org/en-US/"
+        url: "https://developer.mozilla.org/en-US/",
         categoryId: code.id,
       }),
 
