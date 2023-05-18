@@ -1,0 +1,87 @@
+body {
+    text-align: center;
+    background: black;
+    color: white;
+}
+
+img{
+    width: 50%;
+    border: 3px solid black;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: blue;
+}
+
+/*GET /animals*/
+
+.zooBody {
+    display: flex;
+     justify-content: space-evenly;
+     margin: 24px;
+}
+
+.animalForm {
+    order: 2;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form { 
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+}
+
+input, select {
+    margin: 10px;
+    width: 150px;
+}
+
+button {
+    width: 100px
+}
+
+.species {
+    font-style: italic;
+}
+
+.animalCard {
+    background-color: gray;
+    border: 0;
+    padding: 24px 0;
+    margin: 24px 0;
+}
+
+/*GET /zoo/:id*/
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#back {
+    color: black;
+}
+
+.zooAnimalCard {
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: gray;
+    margin: 24px;
+    padding: 12px 0;
+}
+
+.deleteAnimal {
+    display: block;
+    width: auto;
+}

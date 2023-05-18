@@ -1,7 +1,7 @@
 const Sequelize = require('sequelize');
 const { STRING, INTEGER } = Sequelize;
 
-const db = new Sequelize(`postgres://localhost:5432/bookmarker`);
+const db = new Sequelize(`postgres://localhost:5432/bookmarker`,{logging:false});
 
 //making bookmark table
 const Bookmark = db.define("bookmark",{
